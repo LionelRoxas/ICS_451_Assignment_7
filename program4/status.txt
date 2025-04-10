@@ -1,0 +1,12 @@
+Program Status: Complete
+
+The program has been successfully implemented with the following features:
+- TCP client and server that simulate a 3-way handshake
+- Raw TCP header creation and parsing
+- Proper sequence number handling
+- Command line port number specification
+- Proper display of both raw header bytes and readable header fields
+
+The program correctly implements all requirements of the assignment. The client and server can communicate using raw TCP headers for the 3-way handshake protocol, and they display all required information.
+
+Testing has been done on a Unix system, and all functionality works as expected.

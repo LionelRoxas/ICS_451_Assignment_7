@@ -1,0 +1,28 @@
+Connected to server on port 8080
+Client using source port: 49152
+
+--- Step 1: Client sends SYN ---
+Raw TCP Header: C0 00 1F 90 4A BC DE F1 00 00 00 00 50 02 44 70 FF FF 00 00
+Source port: 49152
+Destination port: 8080
+Sequence number: 1253698289
+Acknowledgment number: 0
+Flags: SYN 
+
+--- Step 2: Client receives SYN-ACK ---
+Raw TCP Header: 1F 90 C0 00 EA 1C F6 78 4A BC DE F2 50 12 44 70 FF FF 00 00
+Source port: 8080
+Destination port: 49152
+Sequence number: 3927338616
+Acknowledgment number: 1253698290
+Flags: SYN ACK 
+
+--- Step 3: Client sends ACK ---
+Raw TCP Header: C0 00 1F 90 4A BC DE F2 EA 1C F6 79 50 10 44 70 FF FF 00 00
+Source port: 49152
+Destination port: 8080
+Sequence number: 1253698290
+Acknowledgment number: 3927338617
+Flags: ACK 
+
+3-way handshake completed successfully!
